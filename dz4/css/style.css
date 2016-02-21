@@ -1,10 +1,10 @@
-* {
+﻿* {
   margin:0;
   padding:0;
 }
 body{
   height: 1022px;
-  background: #0c739f url(img/fon1.png) repeat-x top left;
+  background: #0c739f url(../img/fon1.png) repeat-x top left;
 
 }
 /*обертка*/

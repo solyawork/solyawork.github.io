@@ -1,0 +1,182 @@
+* {
+  margin:0;
+  padding:0;
+}
+body{
+  height: 1022px;
+  background: #0c739f url(img/fon1.png) repeat-x top left;
+
+}
+/*обертка*/
+.wrapper{
+  width: 1018px;
+  height: 991px;
+  margin: 0 auto;
+  border-bottom: 3px solid #000;
+  background-color: rgb(247, 245, 247);
+  margin-bottom: 30px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .8),
+   23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    margin-top: 0;
+}
+/*header*/
+.header{
+height: 175px;
+overflow: hidden;
+color:#128aa7;
+position: relative;
+margin-left: 20px;
+}
+.logo img{
+margin-top: 10px;
+margin-left: 20px;
+position: absolute;
+}
+.logo p{
+  font-size: 12px;
+  font-style: 'Tahoma';
+  position: absolute;
+  left: 100px;
+  top: 105px;
+}
+.contact {
+  height: 45px;
+  width: 170px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+ .city{
+   position: absolute;
+   height: 63px;
+   top: 100px;
+   right: 30px;
+   text-align: center;
+ }
+.city ul{
+  float: left;
+}
+.city li{
+  width: 43px;
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
+.city a{
+  font-size: 10px;
+  font-style: 'Tahoma';
+  color:#128aa7;
+}
+/*FOTO*/
+.foto{
+  height: 235px;
+}
+.foto img{
+  width: 1018px;
+  height: 233px;
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #128aa7;
+}
+/*MENU*/
+.menu {
+background-color: #343434;
+height: 27px;
+color: #fff;
+font-size: 14px;
+box-shadow: 0px 5px 5px #000;
+position: relative;
+z-index: 2;
+}
+.menu li{
+background-color: #343434;
+}
+.nav{
+padding-left: 50px;
+}
+ul li:nth-child(6){
+text-align: center;
+}
+ul {
+list-style: none;
+}
+li {
+float: left; /* элементы списка делаем блочными и выстраиваем в ряд */
+height: 18px; /* высоту лучше жестко указать, чтобы выпадающее меню появлялось в предсказуемом месте */
+width: 125px;
+cursor: pointer;
+position: relative; /* чтобы выпадающее меню позиционировалось относительно родителя */
+z-index: 1;
+padding-left:10px;
+padding-top: 9px;
+}
+ul li ul {
+display: none; /* скрываем выпадающе меню */
+position: absolute; /* чтобы положение подменю не влияло на окружение и легко было позиционировать */
+top: 27px; /* высоту лучше не делать большей высоты пункта меню первого уровня, иначе попасть на подменю будет проблематично */
+width: 115px;
+left:-1px;
+}
+ul li ul li {
+float: none;
+display: block;
+background: none;
+padding-top: 5px;
+border-top: 1px solid #000;
+box-shadow: 0px 5px 5px #000;
+}
+ul li:hover ul {
+display: block; /* при наведении на пункт меню первого уровня, показывем подменю */
+}
+
+.menu a{
+color:#fff;
+text-decoration: none;
+}
+/*Контейнер для левой и правой калонки*/
+.conteiner{
+  height: 540px;
+  font-size: 14px;
+
+}
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+.box_left{
+  float: left;
+  width: 210px;
+  height: inherit;
+  background-color: #edeef0;
+}
+.box_right{
+  float: right;
+  width: 210px;
+  background-color: #edeef0;
+  height: inherit;
+  border-left: 1px solid #c7cacf;
+}
+.box_right hr{
+  color:#c7cacf;
+}
+ h2{
+   padding-top: 20px;
+   padding-left: 40px;
+   color:#424c43;
+}
+.conteiner p{
+  padding-left: 15px;
+  padding-top: 5px;
+
+}
+.copyn {
+  position: relative;;
+  left:45%;
+  bottom: 15px;
+  color:#fff;
+  font-size: 12px;
+}

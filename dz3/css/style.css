@@ -25,51 +25,56 @@ body{
   padding-bottom: 38px;
   }
   /*MENU_TOP*/
-    .menu_top{
+    .menu{
      height: 40px;
      width: 966px;
      background-image: url('../img/topmenu.png');
+     position: relative;
+     color: #ffffff;
+     font-size: 15px;
+     font-family: 'Myriad Pro';
+     list-style: none;
     }
-    .menu_top li{
-      display: inline-block;
-      list-style-type: none;
-      padding-top: 12px;
-       height: 28px;
-       padding-left: 25px;
-      }
-     .menu_top li a{
-       text-decoration: none;
-       font-size: 15px;
-       font-family: 'Myriad Pro';
-       color: #ffffff;
-       display: block;
+    .menu a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .menu ul {
 
-       }
-       .menu_top a{
-         height: 40px; 
-       }
-      .menu_top  li:hover{
-       background-image: url('../img/menuvisited.png');
-       display: inline-block;
-       height: 28px;
-       width: 100%;
-        }
+    }
+    .menu li {
+    float: left; /* элементы списка делаем блочными и выстраиваем в ряд */
+    height: 28px; /* высоту лучше жестко указать, чтобы выпадающее меню появлялось в предсказуемом месте
+    width: 125px;*/
+    cursor: pointer;
+    position: relative; /* чтобы выпадающее меню позиционировалось относительно родителя
+    padding-left:15px;*/
+    padding-top: 12px;
 
-     .menu_top li:first-child{
-       width: 120px;
-       margin-right: -3px;
+    }
+    .menu li:hover{
+     background-image: url('../img/menuvisited.png');
+     display: inline-block;}
+
+     .menu li:first-child{
+       width: 130px;
+       text-align: center;
+       /*margin-right: -4px;*/
+
         }
-     .menu_top li:nth-child(2){
+     .menu li:nth-child(2){
        border-left: 1px solid #838383;
        border-right: 1px solid #838383;
-       width: 75px;
+       width: 94px;
+       text-align: center;
        }
-     .menu_top li:nth-child(3){
-       width: 134px;
-       margin-left: -3px;
+     .menu li:nth-child(3){
+       width: 160px;
+      text-align: center;
       }
-      .menu_top li:last-child{
-        width: 528px;
+      .menu li:last-child{
+        width: 550px;
+        padding-left: 30px;
       }
     /* END MENU_TOP*/
 /* END HEADER*/
@@ -80,26 +85,33 @@ body{
         margin-left: 50px;
         list-style-type: none;
         margin-top: 40px;
-        float: left;
         margin-right: 50px;
-      }
+        position: relative;
+        float: left;}
         .menu_left li{
         border: 1px solid #c8c8c8;
         height: 25px;
+        width: 216px;
         padding-left: 24px;
         padding-top: 15px;
+        position: relative;
+          float: left;
+          cursor: pointer;
         }
-        .menu_left li a{
-         display: block;
+        .menu_left a{
          text-decoration: none;
          color: #656363;
         }
        .menu_left li:hover{
          color: rgb(180, 246, 38);
          padding-left: 35px;
+        width: 205px;
+         display: inline-block;
+
        }
        .menu_left a:hover{
-         color: #2c2c2c;}
+         color: #2c2c2c;
+       }
          /*END MENU_LEFT*/
          /*content*/
             .content{

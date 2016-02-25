@@ -50,21 +50,20 @@ body{
     position: relative; /* чтобы выпадающее меню позиционировалось относительно родителя
     padding-left:15px;*/
     padding-top: 12px;
-
     }
+
     .menu li:hover{
      background-image: url('../img/menuvisited.png');
-     display: inline-block;}
+     display: inline-block;
+     border-left: 1px solid #838383;
+     border-right: 1px solid #838383;}
 
      .menu li:first-child{
        width: 130px;
        text-align: center;
        /*margin-right: -4px;*/
-
         }
      .menu li:nth-child(2){
-       border-left: 1px solid #838383;
-       border-right: 1px solid #838383;
        width: 94px;
        text-align: center;
        }

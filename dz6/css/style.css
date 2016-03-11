@@ -102,7 +102,7 @@ body{
     height: 20px;
     border-radius: 10px;
     border: 1px solid #c4cacd;
-    margin-top: 5px;
+
 }
 .mape a{
   text-decoration: none;
@@ -225,7 +225,7 @@ margin-right: 15px;
 }
 .katalog   {
   background-color: #fff;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #79878d;
   border-radius: 10px;
   box-shadow:3px 3px 2px #dcdcdc;
   height: 25px;
@@ -236,13 +236,12 @@ margin-right: 15px;
   line-height: 28px;
 }
 .katalog img {
-  padding-top: 2px;
   float: left;
-  padding-right: 5px;
+    padding: 2px 5px 0 3px;
 }
 .katalog-title{
   background-color: #fff;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #79878d;
   border-radius: 10px;
   margin-top: 10px;
   height: 27px;
@@ -253,9 +252,8 @@ margin-right: 15px;
     line-height: 28px;
 }
 .katalog-title img{
-  padding-top: 2px;
   float: left;
-  padding-right: 5px;
+  padding: 2px 5px 0 3px;
 }
 
 .katalog1{
@@ -310,6 +308,7 @@ input[type="checkbox"]{
   box-shadow:3px 3px 2px #dcdcdc;
   color: #fff;
   font: 11px Arial;
+      margin-left: 10px;
 }
 .content{
   background:linear-gradient(to bottom, #e3e6e7, #94a7b1);

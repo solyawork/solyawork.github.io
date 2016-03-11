@@ -27,7 +27,7 @@ body{
     }
     .pfone{
     float: left;
-    height: 27px;
+    height: 23px;
     width: auto;
     padding-top: 6px;
     }
@@ -49,28 +49,36 @@ body{
     height: 17px;
     border-radius: 5px;
     float: left;
-    margin-left: 10px;
+        margin-left: 17px;
     padding: 5px;
    box-shadow: 0 6px 4px -4px rgba(193, 193, 193, .8);
   }
   .login img{
     float: left;
+    padding-left: 5px;
   }
   .login form{
     padding-left: 25px;
   }
   .login .text{
-    width: 115px;
-    height: 15px;
-    margin-right: 3px;
+  width: 108px;
+  height: 7px;
+  margin-right: 3px;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  font-family: Lucida;
+  font-size: 10px;
   }
   .login input[type="submit"]{
     border: none;
     text-decoration:none;
     font-family:Lucida;
     font-size: 11px;
+    font-weight: bold;
     background:linear-gradient(to bottom, #1a5879, #0f3c61);
     color: #fff;
+        margin-bottom: 8px;
       }
 
   .login hr{
@@ -96,17 +104,17 @@ body{
     margin-top: 5px;
 }
 .mape a{
+  text-decoration: none;
   margin-left: 6px;}
-.head_img{
-  background: url
-  }
 
 .head{
   float: left;
   width: 909px;
   height: 237px;
+
   background: url(../img/header.png) no-repeat;}
 .head a{
+  text-decoration: none;
   display: block;
   margin: 100px 0 0 2px;
   width: 266px;
@@ -129,18 +137,20 @@ margin-left: 125px;
   position: relative;
 }
 .menu_lu > li > a {
+  text-decoration: none;
   display: inline-block;
   color: #b1bcbf;
   font-size: 14px;
   font-family:Lucida;
-  font-weight: bold;
+
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 15px;
   line-height: 25px;
   margin-top:5px;
   text-decoration: none;
 }
 .menu li:hover a {
+  font-weight: bold;
   border-radius: 10px;
   background:linear-gradient(to bottom, #1f6585, #0d365a);
   color:#fff;
@@ -246,21 +256,21 @@ margin-right: 15px;
   float: left;
   padding-right: 5px;
 }
-a{
-text-decoration: none;
-}
+
 .katalog1{
 background: url(../img/marker2.png) no-repeat 0 7px;
 display: block;
-width: 130px;
+width: 125px;
 height: 14px;
 padding: 1px 0 0 10px;
-margin: 5px 0 0 30px;
+margin: 5px 0 0 35px;
 color: #465961;
 font-size: 13px;
 font-family: "Lucida Sans Unicode", Verdana, Arial;
 }
-
+.box_left a{
+  text-decoration: none;
+}
 .box_left a:hover{
   background: url(../img/marker_hover.png) no-repeat 0 7px;
   color: #0c3256;
@@ -323,6 +333,7 @@ top: 15px;
     border: 1px solid #a7b0b3;
 }
 .foto a img{
+  text-decoration: none;
 display: table-cell;
 vertical-align: middle;
 margin-left: 25px;

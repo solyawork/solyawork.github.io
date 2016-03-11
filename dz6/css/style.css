@@ -35,7 +35,8 @@ body{
     float: left;
     width: 22px;
     height: 22px;
-    padding-right: 10px;
+    padding-right: 5px;
+  padding-left: 2px;
 
   }
    .pfone span{
@@ -243,9 +244,9 @@ margin-right: 15px;
   background-color: #fff;
   border: 1px solid #79878d;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   height: 27px;
-  width: 150px;
+  width: 148px;
   color: #114165;
   font-size: 12px;
     font-family: "Lucida Sans Unicode", Verdana, Arial;
@@ -255,14 +256,16 @@ margin-right: 15px;
   float: left;
   padding: 2px 5px 0 3px;
 }
-
+.box_right .katalog-title{
+  width: 135px;
+}
 .katalog1{
 background: url(../img/marker2.png) no-repeat 0 7px;
 display: block;
 width: 125px;
 height: 14px;
 padding: 1px 0 0 10px;
-margin: 5px 0 0 35px;
+margin: 1px 0 0 35px;
 color: #465961;
 font-size: 13px;
 font-family: "Lucida Sans Unicode", Verdana, Arial;
@@ -320,13 +323,13 @@ top: 15px;
 }
   /*БОХ С ТОВАРОМ*/
 .tovar{
-  margin-left: 25px;
-  margin-top: 10px;
+  margin-left: 26px;
+  margin-top: 12px;
   display: inline-block;
 
 }
 .foto{
-  width: 137px;
+  width: 138px;
   height: 127px;
   background-color: #fff;
   border-radius: 10px;

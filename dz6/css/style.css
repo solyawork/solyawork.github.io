@@ -2,9 +2,7 @@
   margin:0;
   padding:0;
 }
-body{
-  background-color: ffffff;
-  }
+
   /*ОБЕРТКА*/
   .wrapper{
     width: 909px;
@@ -15,57 +13,55 @@ body{
     }
       /*header верхняя понель с фото*/
     header{
-      margin-top: 18px;
-      height: 270px;
-      position: relative;
+    margin-top: 18px;
+    height: 270px;
+    position: relative;
     }
     .top_info{
-       height: 32px;
-       font-family: Arial;
-       width: 100%;
-       padding-top: 5px;
+    height: 32px;
+    font-family: Arial;
+    width: 100%;
+    margin-bottom: 3px;
+
     }
     .pfone{
     float: left;
     height: 23px;
     width: auto;
-    padding-top: 6px;
+    padding-top: 4px;
     }
     .pfone img{
     float: left;
     width: 22px;
     height: 22px;
     padding-right: 5px;
-  padding-left: 2px;
-
+    padding-left: 4px;
   }
    .pfone span{
-     color: #213a4d;
-     font-size: 18px;
+    color: #213a4d;
+    font-size: 18px;
    }
-
   .login{
     width: 485px;
     background:linear-gradient(to bottom, #1e6383, #0d365a);
     height: 17px;
     border-radius: 5px;
     float: left;
-        margin-left: 23px;
+    margin-left: 20px;
     padding: 5px;
-   box-shadow: 0 6px 4px -4px rgba(193, 193, 193, .8);
+    box-shadow: 0 6px 4px -4px rgba(193, 193, 193, .8);
   }
   .login img{
     float: left;
-    padding-left: 5px;
   }
   .login form{
-    padding-left: 25px;
-    margin-top: -2px;
+    padding-left: 18px;
+    margin-top: -1px;
   }
   .login .text{
   width: 108px;
   height: 7px;
-  margin-right: 3px;
+  margin-right: 2px;
   padding-top: 3px;
   padding-left: 5px;
   padding-bottom: 2px;
@@ -80,8 +76,9 @@ body{
     font-weight: bold;
     background:linear-gradient(to bottom, #1a5879, #0f3c61);
     color: #fff;
-        margin-bottom: 8px;
-      }
+    margin-bottom: 8px;
+    margin-left: -2px;
+    }
 
   .login hr{
     width: 1px;
@@ -89,32 +86,34 @@ body{
     display: inline-block;
     background-color: #fff;
   }
-  .login a{
-    font-size: 12px;
-    color:#bfbfbf;
-    font-family:Lucida;
-    float: right;
-    padding-top: 3px;
-    margin-right: 5px;
-  }
+
 .mape {
     float: right;
     width: 75px;
     height: 20px;
     border-radius: 10px;
     border: 1px solid #c4cacd;
-
+    margin-right: 5px;
 }
-.mape a{
-  text-decoration: none;
-  margin-left: 6px;}
+  .mape a{
+    text-decoration: none;
+    margin-left: 4px;
+  }
+  .login a{
+  text-decoration: underline;
+  color: rgb(191, 191, 191);
+  font-size: 11px;
+  font-family: Arial,Helvetica,sans-serif;
+  margin: 0px 0px 0px 20px;
+  line-height: 13px;
+  }
 
-.head{
+  .head{
   float: left;
   width: 909px;
   height: 237px;
-
-  background: url(../img/header.png) no-repeat;}
+ background: url(../img/header.png) no-repeat;
+}
 .head a{
   text-decoration: none;
   display: block;
@@ -123,47 +122,55 @@ body{
   height: 70px;
 }
   /*МЕНЮ*/
-.menu{
+.nav{
   background: url(../img/menu.png) no-repeat;
   margin-top: 10px;
   height: 41px;
 }
-.menu ul {
-  list-style: none;
+.nav menu {
+list-style: none;
 margin-left: 125px;
 
 }
-.menu_lu > li {
+.nav_lu > li {
   float: left;
   line-height: 25px;
   position: relative;
 }
-.menu_lu > li > a {
+.nav_lu > li > a {
   text-decoration: none;
   display: inline-block;
   color: #b1bcbf;
   font-size: 14px;
   font-family:Lucida;
-
   padding-left: 20px;
   padding-right: 15px;
   line-height: 25px;
   margin-top:5px;
   text-decoration: none;
 }
-.menu li:hover a {
+.nav_lu > li:nth-child(3){
+  margin-left: -4px;
+}
+.nav_lu > li:nth-child(4){
+  margin-left: -10px;
+}
+.nav_lu > li:last-child{
+  margin-left: -4px;
+}
+.nav li:hover a {
   font-weight: bold;
   border-radius: 10px;
   background:linear-gradient(to bottom, #1f6585, #0d365a);
   color:#fff;
 }
 .corf{
-  float: right;
+  float: left;
   color:#929b9f;
   font-family: Lucida;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
-
+margin-left: 52px;
 }
 .corf img{
   margin-top: 5px;
@@ -179,14 +186,15 @@ margin-left: 125px;
 }
 
 .forma1 {
-  float: left;
-  width: 415px;
-  height: 100%;
-  background-color: #fff;
-  border: 1px solid #dcdcdc;
-  border-radius: 10px;
-  margin-right: 15px;
-  box-shadow:3px 3px 2px #dcdcdc;
+float: left;
+width: 415px;
+height: 100%;
+background-color: #fff;
+border: 1px solid #dcdcdc;
+border-radius: 20px;
+margin-right: 10px;
+box-shadow: 3px 3px 2px #dcdcdc;
+margin-left: 5px;
 }
 .forma2 {
   float: left;
@@ -194,8 +202,8 @@ margin-left: 125px;
   height: 100%;
   background-color: #fff;
   border: 1px solid #dcdcdc;
-  border-radius: 10px;
-margin-right: 15px;
+  border-radius: 20px;
+  margin-right: 15px;
   box-shadow:3px 3px 2px #dcdcdc;
 }
 .forma3 {
@@ -204,7 +212,7 @@ margin-right: 15px;
   height: 100%;
   background-color: #fff;
   border: 1px solid #dcdcdc;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow:3px 3px 2px #dcdcdc;
 }
   /*КОНТЕНТ*/
@@ -219,7 +227,7 @@ margin-right: 15px;
   position: absolute;
 }
   /*ЛЕВОЕ МЕНЮ*/
-.box_left{
+.left{
   float: left;
   margin-top: 10px;
   width: 182px;
@@ -244,19 +252,47 @@ margin-right: 15px;
   background-color: #fff;
   border: 1px solid #79878d;
   border-radius: 10px;
+  margin-top: 12px;
+  height: 27px;
+  width: 148px;
+  color: #114165;
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", Verdana, Arial;
+  line-height: 28px;
+}
+.katalog-title2{
+  background-color: #fff;
+  border: 1px solid #79878d;
+  border-radius: 10px;
   margin-top: 5px;
   height: 27px;
   width: 148px;
   color: #114165;
   font-size: 12px;
-    font-family: "Lucida Sans Unicode", Verdana, Arial;
-    line-height: 28px;
+  font-family: "Lucida Sans Unicode", Verdana, Arial;
+  line-height: 28px;
+}
+.katalog-title3{
+  background-color: #fff;
+  border: 1px solid #79878d;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 27px;
+  width: 148px;
+  color: #114165;
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", Verdana, Arial;
+  line-height: 28px;
+}
+.katalog-title2 img{
+  float: left;
+  padding: 2px 5px 0 3px;
 }
 .katalog-title img{
   float: left;
   padding: 2px 5px 0 3px;
 }
-.box_right .katalog-title{
+.right .katalog-title{
   width: 135px;
 }
 .katalog1{
@@ -265,15 +301,27 @@ display: block;
 width: 125px;
 height: 14px;
 padding: 1px 0 0 10px;
-margin: 1px 0 0 35px;
+margin: 9px 0 0 35px;
 color: #465961;
 font-size: 13px;
 font-family: "Lucida Sans Unicode", Verdana, Arial;
 }
-.box_left a{
+
+.katalog2{
+background: url(../img/marker2.png) no-repeat 0 7px;
+display: block;
+width: 125px;
+height: 14px;
+padding: 1px 0 0 10px;
+margin: 4px 0 9px 35px;
+color: #465961;
+font-size: 13px;
+font-family: "Lucida Sans Unicode", Verdana, Arial;
+}
+.left a{
   text-decoration: none;
 }
-.box_left a:hover{
+.left a:hover{
   background: url(../img/marker_hover.png) no-repeat 0 7px;
   color: #0c3256;
   font-size: 14px;
@@ -282,9 +330,12 @@ font-family: "Lucida Sans Unicode", Verdana, Arial;
   font-weight: bold;
 }
   /*ПРАВОЕ МЕНЮ*/
-.box_right{
+.right{
   float: right;
-    margin-top: 10px;
+    margin-top: 10px;}
+    .right .katalog-title {
+    width: 135px;
+    margin-left: 13px;
 }
 .checkbox{
 position: relative;
@@ -292,9 +343,10 @@ display: block;
 height: 15px;
 width: 100%;
 color: #465961;
-margin: 10px 0 5px;
-padding: 0 0 0 30px;
-font: 12px/13px "Lucida Sans Unicode", Verdana, Arial;}
+margin: 10px 0 0 13px;
+padding: 0 13px 0 30px;
+font: 12px/13px "Lucida Sans Unicode", Verdana, Arial;
+}
 
 input[type="checkbox"]{
   background: url(../img/chekbox.png) no-repeat;
@@ -311,9 +363,10 @@ input[type="checkbox"]{
   box-shadow:3px 3px 2px #dcdcdc;
   color: #fff;
   font: 11px Arial;
-      margin-left: 10px;
+  margin-left: 24px;
+  margin-top: 11px;
 }
-.content{
+main{
   background:linear-gradient(to bottom, #e3e6e7, #94a7b1);
   width: 525px;
   height: 620px;
@@ -323,20 +376,19 @@ top: 15px;
 }
   /*БОХ С ТОВАРОМ*/
 .tovar{
-  margin-left: 26px;
-  margin-top: 12px;
+  margin-left: 24px;
   display: inline-block;
-
+  margin-bottom: 5px;
 }
 .foto{
   width: 138px;
   height: 127px;
   background-color: #fff;
   border-radius: 10px;
-    border: 1px solid #a7b0b3;
+  border: 1px solid #a7b0b3;
 }
 .foto a img{
-  text-decoration: none;
+text-decoration: none;
 display: table-cell;
 vertical-align: middle;
 margin-left: 25px;
@@ -350,40 +402,43 @@ margin-top: 5px;
   color: #206988;
   font-size: 15px;
   font-family: "Lucida Sans Unicode", Verdana, Arial;
-padding-left: 30px;
+  padding-left: 30px;
+  margin-top: 7px;
 }
 .tovar .size{
   color: #000;
   font-size: 12px;
   font-family: "Lucida Sans Unicode", Verdana, Arial;
   padding-left: 10px;
+  margin-top: -5px;
 }
 .tovar .price{
   color: #114165;
   font-size: 16px;
   font-family:  Arial;
   font-weight: bold;
-  padding-left: 30px;
+  padding-left: 33px;
+  margin-top: -2px;
 }
   /*ФОТО БРЕНДОВ*/
 .brend_footer{
   position: absolute;
-  bottom: 120px;
-  margin-left: 130px
-}
+  bottom: 140px;
+  margin-left: 125px;
+  }
   /*ФУТЕР*/
 footer{
   width: 909px;
   height: 100px;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   margin: 0  auto;
   background-color: #213a4d;
 }
   /*ФУТЕР МЕНЮ*/
 .menu_footer  {
   list-style: none;
-margin-left: 300px;
+  margin-left: 300px;
 
 }
 .menu_footer > li {
@@ -409,7 +464,7 @@ margin-left: 300px;
     background-color: #fff;
 }
 .menu_footer li:hover a {
-    color:#52abcb;
+  color:#52abcb;
 }
 .copyn {
   margin-top: 30px;

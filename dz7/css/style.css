@@ -1,0 +1,470 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+#pagewrap {
+   max-width: 960px;
+   margin: 0 auto;
+   background-color: #f9f9f9;
+
+}
+.wrapper{
+  width: 420px;
+  margin: 0 auto;
+}
+  /* HEADER */
+#header {
+   height: 340px;
+   width: 100%;
+   background: url(../img/bg960.jpg) no-repeat;
+   background-size: cover;
+   position: relative;
+   overflow: hidden;
+}
+hgroup a{
+display: inline-block;
+float: left;
+text-decoration: none;
+font-family:'league_gothicCnRg';
+font-size: 21px;
+font-size: 21px;
+margin-top: 24px;
+letter-spacing: 1px;
+}
+ .site-logo  a{
+ text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  margin-left: 20px;
+}
+.site-logo1  a{
+  color: #735181;
+  font-size: 22px;
+}
+
+.main-nav{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: 150px;
+}
+.main-nav a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'league_gothicCnRg';
+  font-size: 12px;
+  padding: 5px 9px;
+  display: block;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.main-nav >li{
+  display: inline-block;
+  position: relative;
+  margin-top: 21px;
+  margin-right: -2px;
+  letter-spacing: 1px;
+}
+.main-nav .sub-menu{
+  display: none;
+}
+.main-nav .opened >a{
+  border-bottom: 1px solid #735181;
+  padding-left: 0px;
+  padding-right: 0;
+  padding-bottom: 2px;
+}
+.main-nav li:nth-child(2) {
+  padding-left: 7px;
+}
+  /*END  HEADER */
+.slaid{
+  height: 158px;
+  background: rgba(84, 71, 102, 0.4);
+  position: relative;
+  top: 67px;
+  width: 100%;
+}
+ .left-arrow{
+  position: absolute;
+  left: 160px;
+  top:70px;
+}
+.right-arrow{
+  position: absolute;
+  top:70px;
+  right: 160px;
+}
+ /* radio */
+.slaid form{
+    position: absolute;
+    bottom: -50px;
+    left:  570px;
+}
+
+.my-custom-label {
+    display:inline-block;
+    }
+.my-custom-label > input[type=radio] {
+    display: none;
+}
+.my-custom-label > span {
+    background: #43444e;
+    border: solid 1px #43444e;
+    display:inline-block;
+    width:7px;
+    height: 7px;
+    border-radius: 100%;
+    vertical-align:middle;
+}
+.my-custom-label > input[type=radio]:checked + span {
+  background: #efefef;
+  border: solid 1px #43444e;
+}
+ /* END radio */
+  /* slaid */
+.slaid-foto{
+  position: relative;
+}
+.slaid-foto .fone{
+    position: absolute;
+    right: 45px;
+    top: -10px;
+}
+.slaid-foto .fonemini{
+  height: 110px;
+  right: 100px;
+  position: absolute;
+  top: 20px;
+}
+  .slaid-foto  h3{
+  position: absolute;
+  left: 20px;
+  top: 35px;
+  font-family:'league_gothicCnRg';
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 0.6;
+  margin: 0;
+    }
+   .slaid-foto h4{
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  font-family: 'league_gothicCnRg';
+  font-size: 12px;
+  font-weight: bold;
+  color: #edbfff;
+  line-height: 0.6;
+  margin-top: 10px;
+  clear: both;
+text-transform: uppercase;
+}
+.slaid-foto p{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-family: 'league_gothicCnRg';
+  font-size: 8px;
+  font-style: italic;
+  position: absolute;
+  left: 20px;
+  top: 75px;
+  color: #fff;
+}
+/*END slaid*/
+/*  СОЗДАНИЕ abouts И СПРАЙТА */
+.Blurbs{
+  background-color: #553c60;
+  height: 137px;
+}
+.Blurbs .wrapper{
+  padding-top: 27px;
+  font-family: OpenSans;
+    font-size: 6.5px;
+    color: #454545;
+    width: 420px;
+    margin: 0 auto;
+    color: #b9b9b9;
+}
+.about{
+  float: left;
+  margin-left: 20px;
+  width: 30%;
+ }
+  .abouts a{
+ height: 15px;
+ width: 15px;
+ display: block;
+ background: url(../img/sprite.png) 0px 4px no-repeat;
+ float: left;
+ }
+ .abouts .img3{
+   background-position: -18px 4px;
+ }
+ .abouts .img2{
+   background-position: -55px 4px;
+ }
+.about3{
+float:right;
+width: 30%;
+padding-left: 8px;
+
+}
+.about2{
+width: 30%;
+margin: 0 auto;
+padding-left: 8px;
+}
+.Blurbs h1{
+  color: #fff;
+  font-family: 'league_gothicCnRg';
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+.Blurbs h3{
+  padding-left: 20px;
+}
+.Blurbs h4{
+  float: right;
+  color: #fff;
+  font-family: 'league_gothicCnRg';
+  font-size: 7.4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: -7px;
+  margin-right: 10px;
+}
+  /*  СОЗДАНИЕ БЛОГОВ */
+ main {
+height: 191px;
+position: relative;
+width: 420px;
+margin: 0 auto;
+}
+ .testimonial {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 25px;
+  top:40px;
+  background: url(../img/blog1.png) no-repeat;
+  z-index: 10;
+}
+ .testimonial img{
+ position: absolute;
+ top: 8px;
+left: -8px;
+width: 18px;
+height: 18px;
+}
+.testimonial p{
+  width: 150px;
+  height: 100px;
+  font-family: OpenSans;
+  font-size: 6.5px;
+  color: #454545;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  line-height: 1.4;
+  font-style: italic;
+}
+.testimonial h4{
+  position: absolute;
+top: -9px;
+left: 17px;
+color: #454545;
+font-family: 'league_gothicCnRg';
+font-size: 13px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.testimonial h5{
+  position: absolute;
+  top: -13px;
+  left: 57px;
+  color: #edbfff;
+  font-family: 'league_gothicCnRg';
+  font-size: 13px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+main form{
+  position: absolute;
+  left: 70px;
+  top: 110px;
+}
+.my-custom-label2 {
+    display:inline-block;
+  }
+.my-custom-label2 > input[type=radio] {
+    display: none;
+}
+.my-custom-label2 > span {
+    background: #fff;
+    border: solid 1px #fff;
+    display:inline-block;
+    width:5px;
+    height: 5px;
+    border-radius: 100%;
+    vertical-align:middle;
+}
+.my-custom-label2 > input[type=radio]:checked + span {
+  background: #43444e;
+  border: solid 1px #43444e;
+}
+.blog{
+  position: absolute;
+  left: 220px;
+  top: 32px;
+  width: 100%;
+  height: 100%;
+}
+.blog h4{
+  color: #454545;
+  font-family: 'league_gothicCnRg';
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 1px;
+}
+.blog img{
+  position: absolute;
+  top: 38px;
+  left: 00px;
+}
+.blog h5{
+  font-weight: bold;
+  position: absolute;
+  top: 28px;
+  font-family: OpenSans;
+  font-size: 6.5px;
+  color: #454545;
+  padding-left: 25px;
+}
+.blog p{
+  font-family: OpenSans;
+font-size: 6.5px;
+color: #454545;
+padding-left: 25px;
+position: absolute;
+top: 42px;
+}
+.blog1{
+position: absolute;
+top: 26px;
+display: inline-block;
+width: 100%;
+left: 0;
+}
+.blog2{
+  position: absolute;
+  top: 50px;
+  display: inline-block;
+  width: 100%;
+  left: 0;
+}
+.blog h3{
+color: #454545;
+font-family: 'league_gothicCnRg';
+font-size: 9px;
+font-weight: bold;
+text-transform: uppercase;
+margin-top: 81px;
+margin-left: 141px;
+}
+ /*  ФОТО БЛОГОВ */
+.logos{
+  border-top: 1px solid #e6e6e6;
+  height: 50px;
+}
+.logos img{
+  margin-left: 321px;
+  margin-top: 10px;
+}
+ /*  СОЗДАНИЕ НОВОСТНЫХ БЛОКОВ */
+.new {
+  border-top: 1px solid #e6e6e6;
+  background-color: #ececec;
+  height: 157px;
+  width: 100%;
+}
+.new .wrapper{
+  padding-top: 35px;
+  font-family: OpenSans;
+    font-size: 6.5px;
+    color: #454545;
+    width: 420px;
+    margin: 0 auto;
+    color: #b9b9b9;
+}
+.new1{
+  float: left;
+  margin-left: 20px;
+  width: 30%;
+   }
+.new3{
+float:right;
+width: 30%;
+padding-left: 8px;}
+.new2{
+  width: 30%;
+  margin: 0 auto;
+  padding-left: 8px;
+}
+.new h1{
+color: #6d6d6d;
+font-family: 'league_gothicCnRg';
+font-size: 17px;
+font-weight: bold;
+text-transform: uppercase;
+display: inline;
+letter-spacing: 1px;
+}
+  .new h1 strong{
+    color:#b9b9b9;
+    font-family:'league_gothicCnRg';
+    font-size: 17px;
+    font-weight: bold;
+    }
+  .new1 h2{
+    color:#b9b9b9;
+    font-family:'Georgia';
+    font-size: 6.4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style:italic;
+  }
+     /*  СОЗДАНИЕ ФУТЕР */
+footer {
+   clear: both;
+   background: url(../img/footer.png) no-repeat;
+  height: 50px;
+}
+footer  .main-nav{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+footer .main-nav >li{
+  margin-top:10px;
+  margin-left: 16px;
+}
+footer .main-nav li:nth-child(2) {
+  padding-left: 0px;
+}
+footer .main-nav a{
+  padding: 5px 2px;
+
+}
+footer p{
+  float: right;
+  font-family: OpenSans;
+  font-size: 6.4px;
+  color: #fff;
+  margin-top: 20px;
+}

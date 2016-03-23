@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
   <title>dz6</title>
@@ -17,9 +17,9 @@
   <span>(044) 123-45-67</span>  <span>(044) 567-89-10 </span></div>
   <div class="login">
   <img src="img/log.png" alt="phone" />
-  <form class="" action="index.html" method="post">
-    <input type="text" name="name" value="" placeholder="Логин" class="text">
-    <input type="password" name="pass" value="" placeholder="пароль" class="text">
+  <form class="" action="input.php" method="post">
+    <input type="text" name="name" placeholder="Логин" class="text">
+    <input type="password" name="password" value="" placeholder="пароль" class="text">
     <input type="submit"  value="вход" >
     <hr noshade/>
     <input type="submit"  value="регистрация ">
@@ -87,23 +87,23 @@
 
 <!--ПРАВОЕ МЕНЮ-->
   <aside class="right">
-  <form class="" action="index.html" method="post">
+  <form class="" action="input.php" method="GET">
     <p class="katalog">  <img src="img/katalog.png" alt="katalog" />БРЕНДЫ:</p>
     <p class="katalog-title"><img src="img/marker1.png" alt="marker" />ШИНЫ</p>
     <p class="checkbox">
-    <input type="checkbox" name="checked" value="" /> Бренд1 </p>
+    <input type="checkbox" id="checked" > <label for="checked">Бренд1 </lebel></p>
     <p class="checkbox">
-    <input type="checkbox" name="checked1" value="" /> Бренд2</p>
+    <input type="checkbox" id="checked1"> <label for="checked1">Бренд2 </lebel></p>
     <p class="checkbox">
-    <input type="checkbox" name="checked2" value="" />Бренд3 </p>
+    <input type="checkbox" id="checked2" ><label for="checked2">Бренд3 </lebel> </p>
 
    <p class="katalog-title"><img src="img/marker1.png" alt="/marker" />ДИСКИ</p>
    <p class="checkbox">
-   <input type="checkbox" name="checked3" value="" />  Бренд1 </p>
+   <input type="checkbox" id="checked3" > <label for="checked3"> Бренд1  </lebel></p>
    <p class="checkbox">
-   <input type="checkbox" name="checked4" value="" />  Бренд2</p>
+   <input type="checkbox" id="checked4"> <label for="checked4"> Бренд2 </lebel></p>
    <p class="checkbox">
-   <input type="checkbox" name="checked5"  value="" />  Бренд3 </p>
+   <input type="checkbox" id="checked5" ><label for="checked5">  Бренд3 </lebel> </p>
    <button class="right-bottom" name="" value="button">ВЫБРАТЬ</button>
   </form>
   </aside>

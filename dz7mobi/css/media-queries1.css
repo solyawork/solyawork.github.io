@@ -1,0 +1,1060 @@
+
+
+/* Адаптaция дизайна от 320 до 480*/
+
+
+@media screen and (min-width: 320px) and (max-width:441px){
+  #pagewrap {
+     min-width: 480px;
+     }
+   header {
+     width: 480px;
+    height: 260px;
+    background: url(../img/bg960.jpg) no-repeat;
+    background-size: cover;
+  }
+  hgroup {
+    margin-left: 40px;
+     margin-top: 15px;
+  }
+  .main-nav>li{
+      display: none;
+      }
+      .main-nav .opened{
+       display: block;
+       width: 120px;
+       text-decoration: underline;
+       text-decoration-color: #edbfff;
+    }
+     .opened .sub-menu{
+      background-color: rgb(71, 58, 78);
+      opacity: 0.5;
+
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      width: 120px;
+    }
+        .main-nav .opened >a{
+          border-bottom: none;
+          text-align: center;
+          margin-left: 0;
+          background-color: rgb(71, 58, 78);
+          opacity: 0.5;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          margin-left: 0px;
+          width: 120px;
+          display: block;
+          padding-top:1px;
+          padding-bottom: 1px;
+      }
+      .main-nav .opened a:hover{
+        background-color: rgb(71, 58, 78);
+        opacity: 0.5;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+      }
+      .main-nav .sub-menu a:hover{
+        background-color: rgb(50, 41, 54);
+        opacity: 0.9;
+        width: 120px;
+        margin-left: 0px;
+        border-bottom: 2px solid #edbfff;
+
+      }
+      .main-nav .sub-menu{
+        background-color: rgb(71, 58, 78);
+        opacity: 0.7;
+        position: absolute;
+        list-style: none;
+        display: none;
+        z-index: 10;
+        border-bottom: 1px solid #53405b;
+      }
+      .main-nav>li:hover .sub-menu{
+        display: block;
+        background-color: rgb(71, 58, 78);
+        opacity: 0.7;
+        width: 120px;
+        margin-left: -32px;
+      }
+      .slaid{
+          width: 100%;
+          height: auto;
+          top: 27px;
+          background: rgba(84, 71, 102, 0.4);
+          position: relative;
+
+        }
+        .slaid .wrapper{
+          width: 380px;
+          height: 135px;
+        }
+        .slaid-foto p{
+          display: none;
+        }
+        .left-arrow{
+         position: absolute;
+         left: 60px;
+         top:65px;
+       }
+       .right-arrow{
+         position: absolute;
+         top:65px;
+         right: 85px;
+       }
+       .slaid-foto  h3{
+       position: absolute;
+       left: 45px;
+       top: 60px;
+       font-family: 'league_gothicCnRg';
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #fff;
+        line-height: 0.6;
+        margin: 0;
+     }
+     .slaid-foto h4{
+       position: absolute;
+       left: 45px;
+       top: 85px;
+       font-family: 'league_gothicCnRg';
+      font-size: 12px;
+      font-weight: bold;
+      color: #edbfff;
+      line-height: 0.6;
+      margin-top: 10px;
+      clear: both;
+      text-transform: uppercase;
+      }
+       .slaid-foto .fone {
+           display: block;
+           position: absolute;
+          right: 70px;
+          top: -10px;
+          z-index: 10;
+       }
+        .slaid-foto .fonemini{
+          display: block;
+          height: 110px;
+          right: 125px;
+          position: absolute;
+          top: 20px;
+
+        }
+
+       .slaid form{
+         position: absolute;
+          top:140px;
+          left: 200px;
+ }
+      main{
+        margin-left:140px;
+      }
+      .logos {
+      background: url(../img/logos480.png) 190px 0 no-repeat;
+      border-top: 1px solid #e6e6e6;
+      height: 60px;
+      margin-top: 10px;}
+
+    footer {
+   clear: both;
+    height: 50px;
+}
+      footer .wrapper{
+        margin-left: 170px;
+       margin-top: -5px;
+       width: 310px;
+      }
+      footer  .main-nav{
+        display: block;
+      }
+
+      footer  .main-nav > li{
+        display: inline-block;
+      }
+      footer  .main-nav{
+      float: left;
+      margin: 0;
+      padding: 0;
+    }
+    footer .main-nav >li{
+      margin-top:0px;
+      margin-left: 0px;
+      letter-spacing: 1px;
+    }
+    footer .main-nav li:nth-child(2) {
+      padding-left: 0px;
+    }
+    footer .main-nav a{
+      padding: 5px 2px;
+     font-size: 4.5px;
+    }
+    footer p{
+      margin-top: 30px;
+      margin-top: 30px;
+ margin-left: -120px;
+    }
+}
+
+
+/* Адаптaция дизайна от 480 до 768*/
+
+@media  screen and (min-width: 441px)  and (max-width: 702px){
+  #pagewrap {
+     min-width: 768px;
+     }
+     .wrapper{
+       width: 420px;
+       margin: 0 auto;
+     }
+          header {
+          height: 340px;
+          width: 100%;
+          position: relative;
+          overflow: hidden;
+       }
+       hgroup a{
+       display: inline-block;
+       float: left;
+       margin-top: 18px;
+       }
+        .site-logo  a{
+         margin-left: -20px;
+       }
+       .site-logo1  a{
+       font-size: 22px;
+       }
+     nav{
+         height: 60px;
+       }
+         .main-nav{
+           position: absolute;
+         }
+         .main-nav a{
+           color: #fff;
+           text-decoration: none;
+           font-family: 'league_gothicCnRg';
+           font-size: 12px;
+           padding: 5px 9px;
+           display: block;
+           text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+         }
+         .main-nav >li{
+           display: inline-block;
+           position: relative;
+           margin-top: 21px;
+           margin-right: -2px;
+           letter-spacing: 1px;
+         }
+         .main-nav .sub-menu{
+           display: none;
+         }
+         .main-nav .opened{
+         display: inline-block;
+         text-decoration:none;}
+
+         .main-nav .opened >a{
+           border-bottom: 1px solid #735181;
+           padding-left: 0px;
+           padding-right: 0;
+           padding-bottom: 2px;
+         }
+         .main-nav li:nth-child(2) {
+           padding-left: 7px;
+         }
+         .main-nav>li:hover .sub-menu{
+                   display:none;
+                 }
+         .main-nav li{
+         top: 20px;
+
+        }
+        .slaid{
+        height: 158px;
+        background: rgba(84, 71, 102, 0.4);
+        position: relative;
+        top: 67px;
+        width: 100%;
+      }
+        .left-arrow{
+         position: absolute;
+         left: 100px;
+         top:70px;
+       }
+        .right-arrow{
+        position: absolute;
+        top:70px;
+        right: 180px;
+        }
+        .slaid form{
+            position: absolute;
+            top: 170px;
+            left: 500px;
+        }
+        .my-custom-label > span {
+            width: 7px;
+            height: 7px;}
+        .slaid-foto .fone{
+            display: block;
+            position: absolute;
+            right: 45px;
+            top: -10px;
+        }
+       .slaid-foto .fonemini{
+        display: block;
+        position: absolute;
+        height: 110px;
+        right: 100px;
+        top: 20px;
+      }
+      .slaid-foto  h3{
+      position: absolute;
+      left: 20px;
+      top: 35px;
+      font-family:'league_gothicCnRg';
+      font-size: 30px;
+      letter-spacing: 1px;
+      color: #fff;
+      line-height: 0.6;
+      margin: 0;
+        }
+       .slaid-foto h4{
+      position: absolute;
+      left: 20px;
+      top: 50px;
+      font-family: 'league_gothicCnRg';
+      font-size: 12px;
+      font-weight: bold;
+      color: #edbfff;
+      line-height: 0.6;
+      margin-top: 10px;
+      clear: both;
+      text-transform: uppercase;
+      }
+      .slaid-foto p{
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      font-family: 'league_gothicCnRg';
+      font-size: 8px;
+      font-style: italic;
+      position: absolute;
+      left: 20px;
+      top: 75px;
+      color: #fff;
+      }
+      .Blurbs{
+        height: 137px;
+      }
+  .Blurbs .wrapper{
+      padding-top: 27px;
+      font-family: OpenSans;
+      font-size: 6.5px;
+      width: 420px;
+      margin: 0 auto;
+      }
+  .about{
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+    padding-top: 0px;
+   }
+
+  .about3{
+  float:right;
+  width: 30%;
+  padding-left: 8px;
+  padding-top: 0px;
+
+  }
+  .about2{
+  width: 30%;
+  margin: 0 auto;
+  padding-left: 8px;
+  }
+  .Blurbs h1{
+    color: #fff;
+    font-family: 'league_gothicCnRg';
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline;
+    letter-spacing: 1px;
+    padding-left: 10px;
+  }
+  .Blurbs h3{
+    padding-left: 20px;
+  }
+  .Blurbs h4{
+    float: right;
+    color: #fff;
+    font-family: 'league_gothicCnRg';
+    font-size: 7.4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  main {
+  height: 191px;
+  position: relative;
+  width: 420px;
+  margin: 0 auto;
+  }
+  .testimonial {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   left: 25px;
+   top:40px;
+   background: url(../img/blog1.png) no-repeat;
+   z-index: 10;
+  }
+  .testimonial img{
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  width: 18px;
+  height: 18px;
+  }
+  .testimonial p{
+   width: 150px;
+   height: 100px;
+   font-family: OpenSans;
+   font-size: 6.5px;
+   color: #454545;
+   position: absolute;
+   top: 20px;
+   left: 15px;
+   line-height: 1.4;
+   font-style: italic;
+  }
+  .testimonial h4{
+   position: absolute;
+  top: -9px;
+  left: 17px;
+  color: #454545;
+  font-family: 'league_gothicCnRg';
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+  .testimonial h5{
+   position: absolute;
+   top: -9px;
+   left: 62px;
+   color: #edbfff;
+   font-family: 'league_gothicCnRg';
+   font-size: 13px;
+   /* font-weight: bold; */
+   text-transform: uppercase;
+   letter-spacing: 1px;
+  }
+  main form{
+   position: absolute;
+   left: 70px;
+   top: 110px;
+  }
+  .my-custom-label2 {
+     display:inline-block;
+   }
+  .my-custom-label2 > input[type=radio] {
+     display: none;
+  }
+  .my-custom-label2 > span {
+     background: #fff;
+     border: solid 1px #fff;
+     display:inline-block;
+     width:5px;
+     height: 5px;
+     border-radius: 100%;
+     vertical-align:middle;
+  }
+  .my-custom-label2 > input[type=radio]:checked + span {
+   background: #43444e;
+   border: solid 1px #43444e;
+  }
+  .blog{
+   position: absolute;
+   left: 220px;
+   top: 32px;
+   width: 100%;
+   height: 100%;
+  }
+  .blog h4{
+   color: #454545;
+   font-family: 'league_gothicCnRg';
+   font-size: 13px;
+   font-weight: bold;
+   text-transform: uppercase;
+   width: 100%;
+   letter-spacing: 1px;
+  }
+  .blog img{
+   position: absolute;
+   top: 38px;
+   left: 00px;
+  }
+  .blog h5{
+   font-weight: bold;
+   position: absolute;
+   top: 28px;
+   font-family: OpenSans;
+   font-size: 6.5px;
+   color: #454545;
+   padding-left: 25px;
+  }
+  .blog p{
+   font-family: OpenSans;
+  font-size: 6.5px;
+  color: #454545;
+  padding-left: 25px;
+  position: absolute;
+  top: 42px;
+  }
+  .blog1{
+  position: absolute;
+  top: 26px;
+  display: inline-block;
+  width: 100%;
+  left: 0;
+  }
+  .blog2{
+   position: absolute;
+   top: 50px;
+   display: inline-block;
+   width: 100%;
+   left: 0;
+  }
+  .blog h3{
+  color: #454545;
+  font-family: 'league_gothicCnRg';
+  font-size: 9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 81px;
+  margin-left: 141px;
+  }
+  .logos{
+  background: url(../img/logos.png) 240px 10px no-repeat;
+   border-top: 1px solid #e6e6e6;
+   height: 50px;
+   }
+   .new {
+    border-top: 1px solid #e6e6e6;
+    background-color: #ececec;
+    height: 157px;
+    width: 100%;
+    display: block;
+   }
+   .new .wrapper{
+    padding-top: 35px;
+    font-family: OpenSans;
+      font-size: 6.5px;
+      color: #454545;
+      width: 420px;
+      margin: 0 auto;
+      color: #b9b9b9;
+   }
+   .new1{
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+     }
+   .new3{
+   float:right;
+   width: 30%;
+   padding-left: 8px;}
+   .new2{
+    width: 30%;
+    margin: 0 auto;
+    padding-left: 8px;
+   }
+   .new h1{
+   color: #6d6d6d;
+   font-family: 'league_gothicCnRg';
+   font-size: 17px;
+   font-weight: bold;
+   text-transform: uppercase;
+   display: inline;
+   letter-spacing: 1px;
+   }
+    .new h1 strong{
+      color:#b9b9b9;
+      font-family:'league_gothicCnRg';
+      font-size: 17px;
+      font-weight: bold;
+      }
+    .new1 h2{
+      color:#b9b9b9;
+      font-family:'Georgia';
+      font-size: 6.4px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-style:italic;
+    }
+
+    footer  .main-nav{
+      display: block;
+    }
+
+    footer  .main-nav > li{
+      display: inline-block;
+    }
+    footer  .main-nav{
+    float: left;
+    margin-left: 10px;
+    padding: 0;
+   }
+   footer .main-nav >li{
+    margin-top:10px;
+    margin-left: 16px;
+    letter-spacing: 1px;
+
+   }
+   footer .main-nav li:nth-child(2) {
+    padding-left: 0px;
+   }
+   footer .main-nav a{
+    padding: 5px 2px;
+   font-size: 12px;
+   }
+   footer p{
+     float: right;
+     margin-top: 18px;
+   margin-left: 40px;
+   }
+   footer .main-nav{
+
+     margin-top: -35px;
+   }
+   }
+
+   /* Адаптaция дизайна от 768 до 1980*/
+
+@media screen and (min-width: 702px) and (max-width: 1980px){
+  #pagewrap {
+     min-width: 960px;}
+   .wrapper{
+    width: 420px;
+    margin: 0 auto;
+     }
+    header {
+      height: 340px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+       }
+       hgroup a{
+       display: inline-block;
+       float: left;
+       margin-top: 24px;
+       }
+        .site-logo  a{
+         margin-left: 20px;
+       }
+       .site-logo1  a{
+       font-size: 22px;
+       }
+
+     .main-nav{
+       padding: 0;
+       margin: 0;
+       list-style: none;
+       margin-left: 150px;
+     }
+     .main-nav a{
+       color: #fff;
+       text-decoration: none;
+       font-family: 'league_gothicCnRg';
+       font-size: 12px;
+       padding: 5px 9px;
+       display: block;
+       text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+     }
+     .main-nav >li{
+       display: inline-block;
+       position: relative;
+       margin-top: 21px;
+       margin-right: -2px;
+       letter-spacing: 1px;
+     }
+     .main-nav .sub-menu{
+       display: none;
+     }
+     .main-nav .opened{
+     display: inline-block;
+     text-decoration:none;}
+
+     .main-nav .opened >a{
+       border-bottom: 1px solid #735181;
+       padding-left: 0px;
+       padding-right: 0;
+       padding-bottom: 2px;
+     }
+     .main-nav li:nth-child(2) {
+       padding-left: 7px;
+     }
+     .main-nav>li:hover .sub-menu{
+               display:none;
+             }
+             .slaid{
+             height: 158px;
+             background: rgba(84, 71, 102, 0.4);
+             position: relative;
+             top: 67px;
+             width: 100%;
+           }
+            .left-arrow{
+             position: absolute;
+             left: 160px;
+             top:70px;
+           }
+           .right-arrow{
+             position: absolute;
+             top:70px;
+             right: 160px;
+           }
+
+           /* radio */
+          .slaid form{
+              position: absolute;
+              top: 170px;
+              left: 500px;
+          }
+          .my-custom-label > span {
+              width: 7px;
+              height: 7px;}
+          .slaid-foto .fone{
+        display: block;
+        position: absolute;
+        right: 45px;
+        top: -10px;
+    }
+    .slaid-foto .fonemini{
+      display: block;
+      position: absolute;
+      height: 110px;
+      right: 100px;
+      top: 20px;
+    }
+    .slaid-foto  h3{
+    position: absolute;
+    left: 20px;
+    top: 35px;
+    font-family:'league_gothicCnRg';
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 0.6;
+    margin: 0;
+      }
+     .slaid-foto h4{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font-family: 'league_gothicCnRg';
+    font-size: 12px;
+    font-weight: bold;
+    color: #edbfff;
+    line-height: 0.6;
+    margin-top: 10px;
+    clear: both;
+    text-transform: uppercase;
+    }
+    .slaid-foto p{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-family: 'league_gothicCnRg';
+    font-size: 8px;
+    font-style: italic;
+    position: absolute;
+    left: 20px;
+    top: 75px;
+    color: #fff;
+    }
+    .Blurbs{
+      height: 137px;
+    }
+    .Blurbs .wrapper{
+      padding-top: 27px;
+      font-family: OpenSans;
+        font-size: 6.5px;
+        width: 420px;
+        margin: 0 auto;
+        }
+    .about{
+      float: left;
+      margin-left: 20px;
+      width: 30%;
+      padding-top: 0px;
+     }
+
+    .about3{
+    float:right;
+    width: 30%;
+    padding-left: 8px;
+    padding-top: 0px;
+
+    }
+    .about2{
+    width: 30%;
+    margin: 0 auto;
+    padding-left: 8px;
+    }
+    .Blurbs h1{
+      color: #fff;
+      font-family: 'league_gothicCnRg';
+      font-size: 12px;
+      text-transform: uppercase;
+      display: inline;
+      letter-spacing: 1px;
+      padding-left: 10px;
+    }
+    .Blurbs h3{
+      padding-left: 20px;
+    }
+    .Blurbs h4{
+      float: right;
+      color: #fff;
+      font-family: 'league_gothicCnRg';
+      font-size: 7.4px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 0px;
+      margin-right: 10px;
+    }
+    main {
+    height: 191px;
+    position: relative;
+    width: 420px;
+    margin: 0 auto;
+    }
+    .testimonial {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 25px;
+     top:40px;
+     background: url(../img/blog1.png) no-repeat;
+     z-index: 10;
+    }
+    .testimonial img{
+    position: absolute;
+    top: 8px;
+    left: -8px;
+    width: 18px;
+    height: 18px;
+    }
+    .testimonial p{
+     width: 150px;
+     height: 100px;
+     font-family: OpenSans;
+     font-size: 6.5px;
+     color: #454545;
+     position: absolute;
+     top: 20px;
+     left: 15px;
+     line-height: 1.4;
+     font-style: italic;
+    }
+    .testimonial h4{
+     position: absolute;
+    top: -9px;
+    left: 17px;
+    color: #454545;
+    font-family: 'league_gothicCnRg';
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    .testimonial h5{
+     position: absolute;
+     top: -13px;
+     left: 57px;
+     color: #edbfff;
+     font-family: 'league_gothicCnRg';
+     font-size: 13px;
+     /* font-weight: bold; */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+    }
+    main form{
+     position: absolute;
+     left: 70px;
+     top: 110px;
+    }
+    .my-custom-label2 {
+       display:inline-block;
+     }
+    .my-custom-label2 > input[type=radio] {
+       display: none;
+    }
+    .my-custom-label2 > span {
+       background: #fff;
+       border: solid 1px #fff;
+       display:inline-block;
+       width:5px;
+       height: 5px;
+       border-radius: 100%;
+       vertical-align:middle;
+    }
+    .my-custom-label2 > input[type=radio]:checked + span {
+     background: #43444e;
+     border: solid 1px #43444e;
+    }
+    .blog{
+     position: absolute;
+     left: 220px;
+     top: 32px;
+     width: 100%;
+     height: 100%;
+    }
+    .blog h4{
+     color: #454545;
+     font-family: 'league_gothicCnRg';
+     font-size: 13px;
+     font-weight: bold;
+     text-transform: uppercase;
+     width: 100%;
+     letter-spacing: 1px;
+    }
+    .blog img{
+     position: absolute;
+     top: 38px;
+     left: 00px;
+    }
+    .blog h5{
+     font-weight: bold;
+     position: absolute;
+     top: 28px;
+     font-family: OpenSans;
+     font-size: 6.5px;
+     color: #454545;
+     padding-left: 25px;
+    }
+    .blog p{
+     font-family: OpenSans;
+    font-size: 6.5px;
+    color: #454545;
+    padding-left: 25px;
+    position: absolute;
+    top: 42px;
+    }
+    .blog1{
+    position: absolute;
+    top: 26px;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    }
+    .blog2{
+     position: absolute;
+     top: 50px;
+     display: inline-block;
+     width: 100%;
+     left: 0;
+    }
+    .blog h3{
+    color: #454545;
+    font-family: 'league_gothicCnRg';
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 81px;
+    margin-left: 141px;
+    }
+    /*  ФОТО БЛОГОВ */
+    .logos{
+    background: url(../img/logos.png) 290px 10px no-repeat;
+     border-top: 1px solid #e6e6e6;
+     height: 50px;
+     }
+
+    /*  СОЗДАНИЕ НОВОСТНЫХ БЛОКОВ */
+    .new {
+     border-top: 1px solid #e6e6e6;
+     background-color: #ececec;
+     height: 157px;
+     width: 100%;
+     display: block;
+    }
+    .new .wrapper{
+     padding-top: 35px;
+     font-family: OpenSans;
+       font-size: 6.5px;
+       color: #454545;
+       width: 420px;
+       margin: 0 auto;
+       color: #b9b9b9;
+    }
+    .new1{
+     float: left;
+     margin-left: 20px;
+     width: 30%;
+      }
+    .new3{
+    float:right;
+    width: 30%;
+    padding-left: 8px;}
+    .new2{
+     width: 30%;
+     margin: 0 auto;
+     padding-left: 8px;
+    }
+    .new h1{
+    color: #6d6d6d;
+    font-family: 'league_gothicCnRg';
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+    letter-spacing: 1px;
+    }
+     .new h1 strong{
+       color:#b9b9b9;
+       font-family:'league_gothicCnRg';
+       font-size: 17px;
+       font-weight: bold;
+       }
+     .new1 h2{
+       color:#b9b9b9;
+       font-family:'Georgia';
+       font-size: 6.4px;
+       font-weight: bold;
+       text-transform: uppercase;
+       font-style:italic;
+     }
+     footer  .main-nav{
+       display: block;
+     }
+
+     footer  .main-nav > li{
+       display: inline-block;
+     }
+     footer  .main-nav{
+     float: left;
+     margin-left: 10px;
+     padding: 0;
+    }
+    footer .main-nav >li{
+     margin-top:10px;
+     margin-left: 16px;
+     letter-spacing: 1px;
+
+    }
+    footer .main-nav li:nth-child(2) {
+     padding-left: 0px;
+    }
+    footer .main-nav a{
+     padding: 5px 2px;
+    font-size: 12px;
+    }
+    footer p{
+
+      margin-top: 18px;
+    margin-left: 40px;
+    }
+    }

@@ -1,0 +1,388 @@
+article,footer, header, menu, nav, section {
+    display: block;
+}
+ /* сбрасываю отступы */
+*{
+padding: 0;
+ margin: 0;
+}
+
+#pagewrap {
+  width: 320px;
+   background-color: #f9f9f9;
+}
+ /* header */
+header {
+   height: 120px;
+   width: 100%;
+   background: url(../img/bg960.jpg) no-repeat;
+   background-size: cover;
+   position: relative;
+   overflow: hidden;
+}
+/* Создание отступов для контента*/
+.wrapper{
+  width: 30%;
+  margin: 0 auto;
+}
+/*лого*/
+hgroup {
+     margin-left: 20px;
+	 margin-top: 5px;
+}
+hgroup a {
+    text-decoration: none;
+    font-family: "league_gothicCnRg";
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #FFF;
+   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.site-logo1  a{
+  color: #735181;
+  margin-left: -3px;
+}
+/*ьеню*/
+.main-nav{
+ list-style: none;
+text-align: center;
+}
+.main-nav .opened{
+display: block;
+text-decoration: underline;
+text-decoration-color: #edbfff;
+}
+
+.main-nav a{
+color:#fff;
+text-decoration:none;
+font-family: 'league_gothicCnRg';
+font-size: 12px;
+}
+.main-nav>li{
+position:relative;
+display:none;
+}
+.main-nav .sub-menu{
+position:absolute;
+list-style: none;
+left:32px;
+top:16px;
+z-index:10;
+display:none;
+}
+.main-nav .sub-menu a{
+display:block;}
+.main-nav .sub-menu a:hover{
+  border-bottom:1px solid #735181;
+  }
+.main-nav .menu{
+list-style: none;
+
+}
+.main-nav>li:hover .sub-menu{
+display:block;
+        }
+/*слайд*/
+.slaid{
+  position: relative;
+  width: 100%;
+}
+.left-arrow {
+    position: absolute;
+    left: 110px;
+    top: 15px;
+}
+.slaid-foto {
+    position: relative;
+}
+.slaid-foto h3 {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 10px;
+    font-family: 'league_gothicCnRg';
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 0.6;
+    margin: 0;
+}
+.slaid-foto h4 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 6px;
+    font-family: 'league_gothicCnRg';
+    color: #edbfff;
+    line-height: 0.6;
+    margin-top: 10px;
+}
+.slaid-foto p {
+    display: none;
+}
+.slaid-foto .fone {
+    display: none;
+}
+ .slaid-foto .fonemini{
+     display: none;
+ }
+ .right-arrow {
+    position: absolute;
+    top: 15px;
+    right: 110px;
+}
+form {
+    position: absolute;
+    left: 140px;
+    top: 33px;
+}
+.my-custom-label {
+    display: inline-block;
+}
+.my-custom-label > input[type="radio"] {
+    display: none;
+}
+.my-custom-label > span {
+    width: 5px;
+    height: 5px;
+    background: #43444e;
+    border: solid 1px #43444e;
+    display: inline-block;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.my-custom-label > input[type=radio]:checked + span {
+  background: #efefef;
+  border: solid 1px #43444e;
+}
+/*Создание 3 колонок и Спрайты*/
+.Blurbs {
+    height: 220px;
+    width: 100%;
+    background-color: #553c60;
+    padding-top: 7px;
+    font-family: OpenSans;
+    font-size: 4.5px;
+    color: #b9b9b9;
+}
+.about {
+    margin-left: 0px;
+    width: 100%;
+    float: left;
+    padding-top: 7px;
+    }
+  .abouts a{
+    height: 15px;
+    width: 15px;
+    display: block;
+    background: url(../img/sprite.png) 0px 4px no-repeat;
+    float: left;
+  }
+  .Blurbs h1 {
+    color: #fff;
+    font-family: 'league_gothicCnRg';
+    font-size: 8px;
+    text-transform: uppercase;
+    display: inline;
+    letter-spacing: 1.2px;
+    padding-left: 10px;
+}
+.Blurbs h3 {
+   padding-left: 20px;
+}
+.Blurbs h4{
+  float: right;
+color: #fff;
+font-family: 'league_gothicCnRg';
+font-size: 7.4px;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-top: 0px;
+margin-right: 10px;
+}
+.abouts .img2 {
+    background-position: -55px 4px;
+}
+.abouts .img3 {
+    background-position: -18px 4px;
+}
+.about3 {
+    float: right;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+/* Контент*/
+main{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+margin-left: 80px;
+}
+.testimonial {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    background: url(../img/blog1.png) no-repeat;
+    z-index: 10;
+}
+.testimonial img {
+    position: absolute;
+    top: 8px;
+    left: -8px;
+    width: 18px;
+    height: 18px;
+}
+.testimonial h4 {
+    position: absolute;
+    top: 0px;
+    left: 17px;
+    color: #454545;
+    font-family: 'league_gothicCnRg';
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.testimonial h5 {
+    position: absolute;
+    top: 0px;
+    left: 57px;
+    color: #edbfff;
+    font-family: 'league_gothicCnRg';
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.testimonial p {
+    width: 120px;
+    height: 100px;
+    font-family: OpenSans;
+    font-size: 6.5px;
+    color: #454545;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+  main form{
+    position: absolute;
+    left: 40px;
+    top: 110px;
+  }
+  .my-custom-label2 {
+    display: inline-block;
+}
+.my-custom-label2 > input[type="radio"] {
+    display: none;
+}
+.my-custom-label2 > span {
+    background: #fff;
+    border: solid 1px #fff;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.my-custom-label2 > input[type=radio]:checked + span {
+  background: #43444e;
+  border: solid 1px #43444e;
+}
+.blog{
+  position: absolute;
+left: 30px;
+top: 142px;
+width: 100%;
+height: 50%;
+}
+.blog h4{
+  color: #454545;
+font-family: 'league_gothicCnRg';
+font-size: 13px;
+font-weight: bold;
+text-transform: uppercase;
+width: 100%;
+letter-spacing: 1px;
+}
+.blog img {
+    position: absolute;
+    top: 38px;
+    left: 00px;
+}
+.blog h5 {
+    font-weight: bold;
+    position: absolute;
+    top: 28px;
+    font-family: OpenSans;
+    font-size: 6.5px;
+    color: #454545;
+    padding-left: 25px;
+}
+.blog p {
+    font-family: OpenSans;
+    font-size: 6.5px;
+    color: #454545;
+    padding-left: 25px;
+    position: absolute;
+    top: 42px;
+}
+.blog1 {
+    position: absolute;
+    top: 37px;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+}
+.blog2 {
+    position: absolute;
+    top: 75px;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+}
+.blog h3 {
+    color: #454545;
+    font-family: 'league_gothicCnRg';
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 111px;
+    margin-left: 81px;
+}
+.logos {
+    background: url(../img/logos320.png) 120px 10px no-repeat;
+    border-top: 1px solid #e6e6e6;
+    height: 144px;
+    margin-top: 10px;
+}
+.logos img{
+  display: none;
+}
+.new{
+  display: none;
+}
+footer {
+    clear: both;
+    background: url(../img/footer.png) no-repeat;
+    height: 50px;
+}
+footer .main-nav {
+    display: none;
+
+}
+
+footer p{
+  margin-top: 10px;
+float: left;
+margin-left: 20px;
+font-family: OpenSans;
+font-size: 6.4px;
+color: #fff;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Магазин цветоа</title>
+<script>
+var Animal = {
+    color:"white",
+    age:2,
+    live:function(){
+        alert("LIVE!");
+    }
+}
+var Cat = {
+    run:function(){
+        alert("беги хворост, беги!");
+    }
+};
+Cat.__proto__ = Object.create(Animal);
+/*
+var Animal=function(pares){
+    this.age=pares.age;
+    this.name=pares.name;
+    this.sound=pares.sound;
+    this.redion=pares.redion;
+
+    this.say = function () {
+    console.log('We started playing',this.name);
+  };
+  this.goAway = function () {
+    console.log('We started playing',this.age);
+  }
+  };
+  var Dog = new Animal({
+  name: 'dog',
+  age:'2',
+
+});
+
+var Cat = function (params) {
+  Animal.apply(this, arguments);
+};
+Cat.prototype = Object.create(Animal.prototype);
+
+console.log(Dog);
+Dog.say();
+Dog.goAway();*/
+</script>
+
+</header>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Дз1</title>
+<script>
+function Animal(age,name, sound,region) {
+  this.age = age;
+  this.name = name;
+  this.sound = sound;
+  this.region = region;
+}
+
+Animal.prototype.say = function() {
+  console.log('%s says %s', this.age,this.name, this.sound,this.region);
+};
+Animal.prototype.gaAway = function() {
+	    return this.name;
+	};
+function Cat() {
+  Animal.call(this,"2", "cat","my","Ukraine");
+}
+Cat.prototype = new Animal();
+// Cat.prototype = Animal.prototype;
+// Cat.prototype =Object.create(Animal.prototype);
+var cat = new Cat();
+cat.say();
+getType=function(object){return object? object.type : this.type}
+with(console){
+ log(getType(cat))
+}
+
+console.log(cat instanceof Cat); // true
+console.log(cat.constructor.name);
+
+
+function inherit(Child, Parent) {
+ Child.prototype = Object.create(Parent.prototype);
+  Child.prototype.constructor = Child;
+  Child.prototype.super = function() {
+    Parent.apply(this, arguments);
+};
+}
+function Dog() {
+  this.super("1", "dog","gav","Ukraine");
+}
+inherit(Dog, Animal);
+var dog = new Dog;
+dog.say();
+
+function Woodpecker() {
+  this.super("3", "Woodpecker","ga","Ukraine");
+}
+inherit(Woodpecker, Animal);
+var woodpecker = new Woodpecker;
+ woodpecker.say();
+
+</script>
+
+</header>
+<body>
+
+</body>
+</html>
